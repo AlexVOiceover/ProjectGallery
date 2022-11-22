@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+
+
+h1 {color: rgb(104, 76, 40);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;}
+
+h2 {color: rgb(104, 76, 40);
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    margin-top: 50px;}
+
+h3 {color: rgb(104, 76, 40);
+    font-family: 'Roboto', sans-serif;}
+
+p  { font-family: 'Roboto', sans-serif;
+    margin: 20px;}
+
+figure {
+    display: inline-block;
+    border: 2px solid;
+    color: brown;
+    ;
+    margin: 20px; /* adjust as needed */;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    border-top: 2px solid;
+    color: brown;
+    ;
+    text-align: center;
+}
+
+
+  
+
+.menu {
+    width: 80%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    padding: 20px;
+  } 
