@@ -24,9 +24,9 @@ figure {
     border: 2px solid;
 }
 figure img {
-     vertical-align: center; 
-     margin-top: 1em;
-}
+    vertical-align: center; 
+    margin-top: 2em;
+ }
 /* figure figcaption {
     color: black;
 
@@ -53,8 +53,8 @@ figure img {
     flex-wrap: wrap;    
     justify-content: left;
     background: lightblue;
-    /* align-items: center self-start; */
-    /* align-content: center; */
+    align-items: center self-start;
+    align-content: center;
     border: 1px solid;
     padding: 2em;
     width: 200px;
@@ -131,7 +131,6 @@ background: darkgrey;
     background: lightskyblue;
     }
     .aside { flex: 1 0 0; }
-    /* .flex-nested-container-medium { flex: 0 0 0; } */
 }
 
 /* If window width greater than 800px  */
