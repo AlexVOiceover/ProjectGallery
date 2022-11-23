@@ -25,7 +25,7 @@ figure {
 }
 figure img {
     vertical-align: center; 
-    margin-top: 2em;
+    margin-top: 1em;
  }
 /* figure figcaption {
     color: black;
@@ -45,7 +45,7 @@ figure img {
 }
 
 .flex-nested-container {
-    /* flex: 0 1 auto; */
+    flex: 0 1 auto; 
     display: flex;
     flex-direction: column; 
     flex-flow: column ;
@@ -68,15 +68,15 @@ figure img {
 }
 
 .flex-nested-container-small {
-        flex-grow: 0.75;
+        flex-grow: 1;
     }
 
 .flex-nested-container-medium {
-        flex-grow: 1.5;
+        flex-grow: 1.4;
     }
 
 .flex-nested-container-large {
-        flex-grow: 2;
+        flex-grow: 1.9;
     }
 
 body {
