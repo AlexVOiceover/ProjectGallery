@@ -108,10 +108,12 @@ background: darkgrey;
 
 }
 
+/* This is trick to detect smartphones */
 @media all and (pointer:none)  , (pointer:coarse) {
     body{
-    background: red
+    background: lightblue;
     }
+    .aside { flex: 1 0 0; }
 }
 
 /* If window width greater than 800px  */
