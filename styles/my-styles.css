@@ -77,7 +77,7 @@ figure {
 /* This is trick to detect smartphones */
 @media all and (pointer:none)  , (pointer:coarse) {
     body{
-    background: lightskyblue;
+    background: rgb(230, 238, 241);
     }
     .flex-container {flex-direction: row;}
 }
