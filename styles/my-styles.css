@@ -128,7 +128,7 @@ background: darkgrey;
 /* This is trick to detect smartphones */
 @media all and (pointer:none)  , (pointer:coarse) {
     body{
-    background: lightblue;
+    background: lightskyblue;
     }
     .aside { flex: 1 0 0; }
     /* .flex-nested-container-medium { flex: 0 0 0; } */
