@@ -5,7 +5,7 @@ h1 {color: rgb(104, 76, 40);
 h2 {color: rgb(104, 76, 40);
     font-family: 'Roboto', sans-serif;
     font-size: x-large;
-    margin: 2em;}
+    margin: 1em;}
 
 h3 {color: rgb(104, 76, 40);
     font-family: 'Roboto', sans-serif;
@@ -13,7 +13,7 @@ h3 {color: rgb(104, 76, 40);
     text-align: center;} 
 
 p  {font-family: 'Roboto', sans-serif;
-    margin: 20px;
+    margin: 1em;
     text-align: left;}
 
 article {font-family: 'Roboto', sans-serif;
