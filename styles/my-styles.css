@@ -131,7 +131,8 @@ background: darkgrey;
     body{
     background: lightskyblue;
     }
-    .aside { flex: 1 0 0; }
+    /* .flex-container { flex: 1 0 0; } */
+    .flex-container {flex-direction: row;}
 }
 
 /* If window width greater than 800px  */
