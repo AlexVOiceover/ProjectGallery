@@ -16,49 +16,70 @@
     </head>
     <body>
 
-        <div class="menu">
             <main>
                 <h1>Alexander's previous projects</h1>
 
-                    <p>Gaggiuino is an open-source modification for the Gaggia Classic and Pro expresso machines developed by
-                        <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2F5UWRMR2JvRnYxX0lxZTd5TUdiZnFYLWViUXxBQ3Jtc0tuLUFPVFdEUUU4d2luamJmRm1BcC1TNjlBcEdDODZIS0J5SldHbXlNZTJtd0dpeGpHNDloaHlBNW80MjV5dG9majdYS2J5SzFnUmRxNzl3WjYwN1UtX0xJenZZYWU0ZkNfcFkzWW1wNm5Yd0M5ME1kTQ&q=https%3A%2F%2Fgithub.com%2FZer0-bit%2Fgaggiuino%2F&v=MxPNQRCxQZc">Zer0-bit</a>
-                        and a small <a href="https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXZvX1NKdkhXSEdnbmtlT053VGhTQWY2S2kxd3xBQ3Jtc0tsNS1FSkExRFk3UVpvdUtGZEl3QkNkWkt2bmJYN1g1cnNkYksxNDNsR0hQU0lCczhBa2s3LURTX0UzQ0ltY2k5UUhSUE9QeWs0M3FBaTRVUjV6WW9nUDd3SV8xczJLLTZoSHR0eWpVbl9YX3FZNkRQWQ&q=https%3A%2F%2Fdiscord.com%2Finvite%2FeJTDJA3xfh&v=MxPNQRCxQZc">community</a>
-                    </p>
+                    <p>These are some of my previous projects, mostly Arduino based and 3D printed stuff</p>
 
                 <section>
-                    <h2>First Step. Get a not modified Gaggia Classic.</h2>
-                    <p>The Gaggia Classic is a simple machine, perfect for modding.</p>
-                    <figure>
-                        <img src="https://cdn.shopify.com/s/files/1/0508/5180/7421/products/gaggia-classic-2019-stainless-steel.png?v=1657101509" alt="Gaggia Classic"  width="200" height="250">
-                        <figcaption class="figure-caption text-center">Gaggia <em>Classic</em></figcaption>  
-                    </figure>
-
-                    <p>This is how looks a modified Gaggia.</p>
-                    <figure>
-                        <img src="https://i.imgur.com/jm4Rp7Q.jpeg" alt="Modified Gaggia"  width="200" height="250">
-                        <figcaption class="figure-caption text-center"><strong>Modified</strong> Gaggia </figcaption>  
-                    </figure>
+                    <h2>Smart spinning bike</h2>
+                    <p>Old school spinning bikes won't give you any information about the resistance and the cadence. I added a potentiometer to read the position of the resistance shaft and a reed switch to calculate the cadence</p>
+                    <ul class="flex-container">
+                        <figure class="flex-item"> <img src="images\Bike01.jpg" alt="Spinning bike"  height="300">
+                            <figcaption class="figure-caption text-center">Smart Spinning bike</figcaption>  </figure>
+                        <figure class="flex-item"> <img src="images\Bike02.jpg" alt="Battery powered"  height="300">
+                            <figcaption class="figure-caption text-center">Battery powered Arduino</figcaption>  </figure>
+                        <figure class="flex-item"> <img src="images\Bike03.jpg" alt="LED display"  height="300">
+                            <figcaption class="figure-caption text-center">LED Display. Resistance and cadence</figcaption>  </figure>
+                        
+                    </ul>
+                   
                 </section>
+
                 <section>
-                    <h3>What we get with this mod:</h3>
-                    <ul>
-                        <li>Temp Control</li>
-                        <li>Pressure Control</li>
-                        <li>Weight Contol</li>
-                        <li>Brew time Contol</li>
+                    <h2>Modified 3d Printer</h2>
+                    <p>I modified every possible aspect of this Ender 3 Pro</p>
+                    <ul class="flex-container">
+                        <figure class="flex-item"> <img src="images\Printer01.jpg" alt="3d Printer"  height="300">
+                            <figcaption class="figure-caption text-center">Highly modified Ender3 Pro</figcaption>  </figure>
+                        <figure class="flex-item"> <img src="images\Printer02.jpg" alt="Carriage"  height="300">
+                            <figcaption class="figure-caption text-center">ABL Probe, BMG Extruder and Dragon Hotend</figcaption>  </figure>
+                        <figure class="flex-item"> <img src="images\Printer03.jpg" alt="Camera"  height="300">
+                            <figcaption class="figure-caption text-center">Print can be supervised with RaspiCam</figcaption>  </figure>
+                        <figure class="flex-item"> <img src="images\Printer04.jpg" alt="Double Z axis"  height="300">
+                            <figcaption class="figure-caption text-center">Bigtreetech motherboard allows dual Z-axis</figcaption>  </figure>
+                        <figure class="flex-item"> <img src="images\Printer05.jpg" alt="Fluidd"  height="300">
+                            <figcaption class="figure-caption text-center">Klipper and Fluidd</figcaption>  </figure>
+                        
                     </ul>
                 </section>
+
+                <section>
+                    <h2>3d Printed PSU</h2>
+                    <p>The case was 3D printed. Internal components from Aliexpress</p>
+                        <div class="wrapper">
+                            <header class="header">Bench PSU</header>
+                            <article class="main">
+                                <p id="p2">The case is modular, so every wall can be printed flat on the bed, this way the finish is very smooth. If the case needs to be modified (adding a new conextion type) it can be printed just the affected face instead of the whole case. </p>  
+                                <p>When working on electronics it is very important to have an adjustable power supply. This one can provide up to 50V and 5A, what is plenty for most of my projects, even running motors from big quadcopters</p> 
+                                <p>All the STL files will be published in Thingiverse as well as the original parametric files.</p> 
+                                <p>The case combines structural parts (printed in PLA) as well as some other elastic (printed in TPU). The case was designed to be printed in a regular 220x200 bed.</p> 
+                            </article>
+                            <aside class="aside aside-1"> <img src="images\PSU01.jpg" alt="Bench Power Supply"  height="300"></aside>
+                            <aside class="aside aside-2"> <img src="images\PSU02.jpg" alt="Bench Power Supply"  height="300"></aside>
+                            <footer class="footer">Safe and cheap</footer>
+                        </div>
+                    
+                </section>
+               
             </main>
 
-            <p id=p2 style="text-align:center">
-                Date: 
-            </p>
+            
             <footer>
                 <p style="text-align:center">
                     No Copyright
                 </p>                                 
             </footer>  
-        </div>
-        <script src="scripts/my-script.js"></script>      
+        <!-- <script src="scripts/my-script.js"></script>       -->
     </body>
 </html>
