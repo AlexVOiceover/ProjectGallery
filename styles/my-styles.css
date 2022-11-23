@@ -9,7 +9,15 @@
 }
 
 .flex-item {
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center self-start;
+    align-content: center;
+
+
+
     background: grey;
     padding: 5px;
     width: 400px;
@@ -58,6 +66,8 @@ body {
     padding: 2em;
   } 
 
+
+/* A Flex container with a more complex setup */
 .wrapper {
 display: flex;  
 flex-flow: row wrap;
@@ -92,11 +102,21 @@ background: darkgrey;
 background: darkgrey;
 }
 
+/* If window width greater than 600px  */
 @media all and (min-width: 600px) {
 .aside { flex: 1 0 0; }
+
 }
 
+@media all and (pointer:none)  , (pointer:coarse) {
+    body{
+    background: red
+    }
+}
+
+/* If window width greater than 800px  */
 @media all and (min-width: 800px) {
+
 .main    { flex: 3 0px; }
 .aside-1 { order: 1; } 
 .main    { order: 2; }
