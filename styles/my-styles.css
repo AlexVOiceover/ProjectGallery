@@ -2,6 +2,8 @@ h1 {color: rgb(104, 76, 40);
     font-family: 'Roboto', sans-serif;
     text-align: center;}
 
+.h1right {text-align: right;}
+
 h2 {color: rgb(104, 76, 40);
     font-family: 'Roboto', sans-serif;
     font-size: large;
@@ -47,35 +49,33 @@ figure {
     gap: 2em; 
     flex-direction: row;
     flex-wrap: wrap;    
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 2em;}
 
 .flex-nested-container {
     display: flex;
     flex-direction: column; 
-    flex-flow: column ;
     flex-wrap: wrap;    
-    justify-content: left;
-    align-items: center self-start;
-    align-content: center;
+    align-content: flex-start;
+    justify-content: center;
     border: 1px solid;
     padding: 2em;
     width: 200px;}
 
 .flex-nested-container-small {
-        flex-grow: 2;
-        background: rgb(248, 233, 228);
-        order: 1}
+    flex-grow: 2;
+    background: rgb(248, 233, 228);
+    order: 1}
 
 .flex-nested-container-medium {
-        flex-grow: 3;
-        background: rgb(230, 238, 241);
-        order: 2}
+    flex-grow: 3;
+    background: rgb(230, 238, 241);
+    order: 2}
 
 .flex-nested-container-large {
-        flex-grow: 4;
-        background: rgb(238, 238, 238);
-        order: 3}
+    flex-grow: 4;
+    background: rgb(238, 238, 238);
+    order: 3}
 
 /* This is trick to detect smartphones */
 @media all and (pointer:none) , (pointer:coarse) {
@@ -98,7 +98,7 @@ figure {
 
     
 .dropbtn:hover, .dropbtn:focus {
-background-color: #696969;}
+    background-color: #696969;}
 
 .dropdown {
     position: relative;
@@ -113,10 +113,10 @@ background-color: #696969;}
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
 
 .dropdown-content a {
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: block;}
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
