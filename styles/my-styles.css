@@ -72,12 +72,12 @@ figure {
     background: rgb(238, 238, 238);
     order: 3}
 
-/* This is trick to detect smartphones */
+/* This is trick to detect smartphones 
 @media all and (pointer:none) , (pointer:coarse) {
     body{background: rgb(230, 238, 241);}
 
     .flex-container {flex-direction: row;
-                    }}
+                    }} */
 
 .dropbtn {
     background-color: #d4d4d4;
