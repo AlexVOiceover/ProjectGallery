@@ -96,4 +96,5 @@ figure {
     display: inline-block;}
 
 .dropdown-content {
-   display: none;}
+   display: none;
+   border: none;}
