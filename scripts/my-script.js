@@ -25,9 +25,9 @@ function toggleVisibility(param1) {
   const computedStyle = getComputedStyle(param1);
   
   if (computedStyle.display === "none" ) {
-    param1.style.display = "flex";
+    param1.style.display = "inline-block";
   } else {
     param1.style.display = "none";
   }
-  
+
 }
