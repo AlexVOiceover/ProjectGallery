@@ -50,11 +50,12 @@ figure {
     display: flex;
     flex-direction: column; 
     flex-wrap: wrap;     
-    align-content: flex-start;
-    justify-content: center;
+    /*align-content: flex-start;*/
+    justify-content: flex-start;
     border: 1px solid;
     padding: 2em;
-    width: 200px;}
+    width: 200px;
+}
 
 .flex-nested-container-small {
     flex-grow: 2;
@@ -75,7 +76,8 @@ figure {
 @media all and (pointer:none) , (pointer:coarse) {
     body{background: rgb(230, 238, 241);}
 
-    .flex-container {flex-direction: row;}}
+    .flex-container {flex-direction: row;
+                    }}
 
 .dropbtn {
     background-color: #d4d4d4;
