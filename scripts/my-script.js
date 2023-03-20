@@ -10,7 +10,7 @@ const article3 = document.querySelector('#article3');
 
 button1.addEventListener('click', () => {
   toggleVisibility(article1);
-	});
+});
 
 button2.addEventListener('click', () => {
 	toggleVisibility(article2);
@@ -21,7 +21,6 @@ button3.addEventListener('click', () => {
 });
 
 function toggleVisibility(param1) {
-
   const computedStyle = getComputedStyle(param1);
   
   if (computedStyle.display === "none" ) {
@@ -29,5 +28,4 @@ function toggleVisibility(param1) {
   } else {
     param1.style.display = "none";
   }
-
 }
