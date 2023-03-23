@@ -53,8 +53,7 @@ figure {
     justify-content: flex-start;
     border: 1px solid;
     padding: 2em;
-    width: 200px;
-}
+    width: 200px;}
 
 .flex-nested-container-small {
     flex-grow: 2;
@@ -97,3 +96,5 @@ figure {
 .dropdown-content {
    display: none;
    border: none;}
+
+   
