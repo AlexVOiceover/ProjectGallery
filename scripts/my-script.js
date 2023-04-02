@@ -1,5 +1,3 @@
-console.log("Initialising console");
-
 // Get the buttons
 const button1 = document.querySelector('#button1');
 const button2 = document.querySelector('#button2');
@@ -25,6 +23,8 @@ button3.addEventListener('click', () => {
 
 // This functions toggles the visibility of param
 function toggleVisibility(param) {
+
+  // We get on computedStyle the value of .display
   const computedStyle = getComputedStyle(param);
   
   if (computedStyle.display === "none" ) {

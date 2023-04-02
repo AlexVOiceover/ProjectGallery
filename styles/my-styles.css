@@ -13,8 +13,7 @@ h2 {color: rgb(104, 76, 40);
 h3 {color: rgb(104, 76, 40);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    text-align: center;
-} 
+    text-align: center;} 
 
 p  {font-family: 'Roboto', sans-serif;
     margin: 1em;
@@ -30,8 +29,7 @@ body {
  img {
     vertical-align: center; 
     margin-top: 1em;
-    width: 100%;
-  } 
+    width: 100%;} 
 
 .flex-container {
     display: flex;
@@ -52,19 +50,19 @@ body {
     padding-top: 1em;
     max-width: 600px;}
 
-.flex-nested-container-small {
+.flex-nested-container.small {
     flex-grow: 2;
     width: 200px;
     background: rgb(248, 233, 228);
     order: 1}
 
-.flex-nested-container-medium {
+.flex-nested-container.medium {
     flex-grow: 3;
     width: 300px;
     background: rgb(230, 238, 241);
     order: 2}
 
-.flex-nested-container-large {
+.flex-nested-container.large {
     flex-grow: 4;
     width: 400px;
     background: rgb(238, 238, 238);
@@ -76,8 +74,7 @@ body {
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
-    width: 100%;}
+    cursor: pointer;    }
 
 .dropbtn:hover, .dropbtn:focus {
     background-color: #696969;}
@@ -89,4 +86,5 @@ body {
 
 /* This is trick to detect smartphones */
 @media all and (pointer:none) , (pointer:coarse) {
-    .flex-container {flex-direction: row;}} 
+    .flex-container {flex-direction: row;}
+}
